@@ -4,7 +4,7 @@ body {
   }
   
   .main-container {
-    background-color: #ffea35; 
+    background-color: #ffea35;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -12,18 +12,25 @@ body {
   
   .left-bar {
     background-color: #e016ff;
+    width: 100px;
     width: 110px;
     height: 95%;
     margin: auto 0 auto 10px; 
+    flex-shrink: 0;
   }
-
+  
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
   .top-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
-    margin-top: -250px;
-    margin-left: 80px;
+    margin-top: 60px;
   }
   
   .orange-box {
@@ -39,7 +46,7 @@ body {
     height: 30px;
     position: absolute;
   }
-  
+
   .top-left {
     top: 0;
     left: 0;
@@ -56,5 +63,14 @@ body {
     right: 0;
   }
   
+  .blue-bar {
+    background-color: #11144c;
+    height: 60px;
+    width: 1100px;
+    align-self: flex-start;
+    margin: 60px 60px 0 0;
+    justify-content: center;
+    
+  }
   
   
