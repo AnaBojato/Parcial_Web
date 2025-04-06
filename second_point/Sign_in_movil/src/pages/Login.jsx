@@ -14,7 +14,12 @@ export default function Login() {
         console.log("Username:", username);
         console.log("Password:", password);
         console.log("Remember me:", remember);
+    
+        setUsername("");
+        setPassword("");
+        setRemember(false);
     };
+    
 
     return (
         <div className="login-container">
