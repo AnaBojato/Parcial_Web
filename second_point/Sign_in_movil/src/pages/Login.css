@@ -9,8 +9,7 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Contenedor principal */
-  .login-container {
+.login-container {
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -18,7 +17,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
+  
   
   /* Círculos de fondo */
 .circle {
@@ -49,9 +50,10 @@
   
     /* Icono de user */
   .user-icon {
+    margin-top: 60px;
+    margin-bottom: 10px;
     width: 175px;
     height: 175px;
-    margin: 0 auto 20px;
     z-index: 2;
   }
   
@@ -61,4 +63,31 @@
     object-fit: contain;
     display: block;
   }
+
+  /* formulario */
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
   
+  
+form input[type="text"],
+form input[type="password"] {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #7377FF;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  margin-top: 10px;
+}
+
+form input::placeholder {
+  color: white;
+  opacity: 1;
+}
+ 
