@@ -47,3 +47,18 @@
     z-index: 0;
   }
   
+    /* Icono de user */
+  .user-icon {
+    width: 175px;
+    height: 175px;
+    margin: 0 auto 20px;
+    z-index: 2;
+  }
+  
+  .user-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  

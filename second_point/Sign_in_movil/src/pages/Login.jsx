@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
+import userIcon from '../assets/user.svg';
+
 
 
 export default function Login() {
@@ -20,7 +22,9 @@ export default function Login() {
       <div className="circle top-right"></div>
 
       <div className="login-content">
-        <div className="user-icon"></div>
+        <div className="user-icon">
+            <img src={userIcon} alt="User Icon" />
+        </div>
 
         <form onSubmit={handleSubmit}>
           <input
