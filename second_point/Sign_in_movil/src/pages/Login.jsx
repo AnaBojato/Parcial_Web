@@ -1,25 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Login.css";
 import userIcon from '../assets/user.svg';
-
-
+import { useLoginForm } from "./hooks";
 
 export default function Login() {
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
-    const [remember, setRemember] = useState(false);
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log("Username:", username);
-        console.log("Password:", password);
-        console.log("Remember me:", remember);
-    
-        setUsername("");
-        setPassword("");
-        setRemember(false);
-    };
-    
+    const {
+        username,
+        setUsername,
+        password,
+        setPassword,
+        remember,
+        setRemember,
+        handleSubmit
+    } = useLoginForm();
 
     return (
         <div className="login-container">
@@ -32,7 +25,7 @@ export default function Login() {
                 </div>
 
                 <form onSubmit={handleSubmit} className="login-form">
-                    < input
+                    <input
                         type="text"
                         placeholder="Username"
                         value={username}
@@ -72,7 +65,6 @@ export default function Login() {
                         Forgot password?
                     </button>
                 </form>
-
             </div>
         </div>
     );
