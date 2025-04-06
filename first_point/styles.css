@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container {
+    background-color: #ffea35; 
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-bar {
+    background-color: #e016ff;
+    width: 100px;
+    height: 95%;
+    margin: auto 0 auto 10px; 
+  }
+  
+  
