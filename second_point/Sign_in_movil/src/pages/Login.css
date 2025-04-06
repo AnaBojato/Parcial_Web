@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #ffffff, #f2f8ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
