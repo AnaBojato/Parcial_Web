@@ -50,9 +50,8 @@
   
     /* Icono de user */
   .user-icon {
-    margin-top: 60px;
+    margin-top: 160px;
     margin-bottom: 10px;
-    width: 175px;
     height: 175px;
     z-index: 2;
   }
@@ -83,7 +82,7 @@ form input[type="password"] {
   font-size: 16px;
   text-align: center;
   outline: none;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 form input::placeholder {
@@ -91,3 +90,43 @@ form input::placeholder {
   opacity: 1;
 }
  
+.btn-signin {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #65BCFF; 
+  color: white;
+  font-size: 16px;
+  width: 140px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.remember label {
+  color: #65BCFF; 
+  font-size: 14px;
+}
+
+.remember input[type="checkbox"] {
+  accent-color: #65BCFF;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+
+
+
+.btn-forgot {
+  background: none;
+  border: none;
+  color: #65BCFF; 
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 0px;
+}
