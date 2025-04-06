@@ -12,9 +12,49 @@ body {
   
   .left-bar {
     background-color: #e016ff;
-    width: 100px;
+    width: 110px;
     height: 95%;
     margin: auto 0 auto 10px; 
   }
+
+  .top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: -250px;
+    margin-left: 80px;
+  }
+  
+  .orange-box {
+    background-color: #ff800b;
+    width: 250px;
+    height: 100px;
+    position: relative;
+  }
+  
+  .peach-box {
+    background-color: #ffbb7c;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+  }
+  
+  .top-left {
+    top: 0;
+    left: 0;
+  }
+  
+  .center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+  }
+  
   
   
