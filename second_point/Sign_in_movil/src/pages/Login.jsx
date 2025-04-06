@@ -49,7 +49,15 @@ export default function Login() {
 
           <button type="submit">Sign in</button>
 
-          <p className="forgot">Forgot password?</p>
+          <button
+            type="button"
+            className="forgot"
+            onClick={() => console.log("Redirect to forgot password")}
+          >
+            Forgot password?
+          </button>
+
+          
         </form>
       </div>
     </div>
