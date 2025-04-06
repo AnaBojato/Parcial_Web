@@ -4,7 +4,7 @@ body {
   }
   
   .main-container {
-    background-color: #ffea35; 
+    background-color: #ffea35;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -14,16 +14,22 @@ body {
     background-color: #e016ff;
     width: 110px;
     height: 95%;
-    margin: auto 0 auto 10px; 
+    margin: auto 0 auto 10px;
+    flex-shrink: 0;
   }
-
+  
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
   .top-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
-    margin-top: -250px;
-    margin-left: 80px;
+    margin-top: 60px;
   }
   
   .orange-box {
@@ -35,8 +41,8 @@ body {
   
   .peach-box {
     background-color: #ffbb7c;
-    width: 60px;
-    height: 30px;
+    width: 85px;
+    height: 40px;
     position: absolute;
   }
   
@@ -56,5 +62,48 @@ body {
     right: 0;
   }
   
+  .blue-bar {
+    background-color: #11144c;
+    height: 60px;
+    width: 1150px;
+    margin: 60px 0px 0 0;
+    align-self: flex-start;
+  }
   
+  .bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 60px;
+  }
+  
+  .pink-box {
+    background-color: #ff0b80;
+    width: 380px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 0px; 
+    position: relative;
+  }
+  
+  
+  .light-pink-box {
+    background-color: #ff7db9;
+    width: 70px;
+    height: 30px;
+  }
+  
+  .stripe-box {
+    justify-content: center;
+  }
+  
+  .horizontal-stripe {
+    background-color: #ff91c5;
+    width: 100%;
+    height: 15px;
+    position: absolute;
+  }
   
